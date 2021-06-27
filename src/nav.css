@@ -10,5 +10,6 @@ nav span {
 @media screen and (max-width: 900px) {
   nav {
     text-align: center;
+    font-size: 30px;
   }
 }
