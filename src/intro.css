@@ -13,3 +13,19 @@
 .intro-box {
   margin-bottom: 30px;
 }
+.last {
+  margin-bottom: 50px;
+}
+.track-btn {
+  position: relative;
+  margin-bottom: 80px;
+  margin-top: 90px;
+  padding: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.track-btn:hover {
+  background-color: rgb(0, 174, 255);
+  color: black;
+  border-color: rgb(0, 174, 255);
+}

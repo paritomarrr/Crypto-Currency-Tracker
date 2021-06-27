@@ -1,6 +1,6 @@
 .footer {
-  margin-top: 160px;
-  margin-bottom: 7px;
+  position: relative;
+  text-align: center;
 }
 .footer span {
   color: rgb(0, 174, 255);

@@ -1,5 +1,7 @@
 import React from 'react'
 import './intro.css'
+import {Link} from 'react-router-dom'
+import './footer.css'
 
 const intro = () => {
     const text = 'A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation. '
@@ -9,7 +11,12 @@ const intro = () => {
             <h1 className="intro-text">What is Crypto Currency?</h1>
             <p className="intro-para intro-box">{text}</p>
             <h1 className="intro-text">How secure is Crypto Currency?</h1>
-            <p className="intro-para intro-box">{security}</p>
+            <p className="intro-para intro-box last">{security}</p>
+            <Link to="/tracker" ><button className="track-btn">Track your Crypto Currency</button></Link>
+            <div className="footer">
+            <p>In <span>cryptography</span> we trust.</p>
+        </div>
+    
         </div>
     )
 }
