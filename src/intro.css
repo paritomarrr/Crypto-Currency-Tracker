@@ -1,0 +1,15 @@
+.intro {
+  margin: 20px 13%;
+  height: 100vh;
+}
+.intro-text {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.intro-para {
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.intro-box {
+  margin-bottom: 30px;
+}
