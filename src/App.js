@@ -38,6 +38,7 @@ function App() {
             className="coin-input" 
             onChange={handleChanger} />
           </form>
+           <p className="slide-message">SWIPE <i class="fa fa-angle-double-right" ></i></p>
         </div>
       </div>
       {filteredCoins.map(coin => {

@@ -6,3 +6,9 @@ nav {
 nav span {
   color: rgb(0, 174, 255);
 }
+
+@media screen and (max-width: 900px) {
+  nav {
+    text-align: center;
+  }
+}

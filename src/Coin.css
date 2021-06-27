@@ -61,3 +61,8 @@
   color: #11d811;
   margin-right: 5%;
 }
+@media screen and (max-width: 900px) {
+  .coin-row {
+    width: 50%;
+  }
+}
